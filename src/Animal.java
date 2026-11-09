@@ -18,18 +18,4 @@ public abstract class Animal {
         System.out.println("Costo de consulta: $"
                 + calcularCostoConsulta());
     }
-    //Crear la interface vacunable
-
-    public interface Vacunable {
-        void registrarVacuna(String nombre);
-
-        int getVacunasAplicadas();
-    }
-    //Crear la interface asegurable
-    
-    public interface Asegurable {
-        double calcularPrimaSeguro();
-
-        String obtenerNumeroPoliza();
-    }
 }
